@@ -1,9 +1,5 @@
 name: Publish
 
-on:
-  commit:
-
-
 jobs:
   build:
     name: Publish binaries
