@@ -11,7 +11,7 @@ jobs:
   release-file-system-image:
     uses: r-wasm/actions/.github/workflows/release-file-system-image.yml@v1
     with:
-      packages: cli, data.table
+      packages: tinytable
     permissions:
       # For publishing artifact files to the release
       contents: write
